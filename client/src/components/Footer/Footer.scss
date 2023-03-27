@@ -1,0 +1,48 @@
+.footer {
+  margin: 100px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 96, 161);
+  }
+  span {
+    color: rgb(60, 61, 61);
+    font-style: 18px;
+    font-weight: 500;
+  }
+
+  .spanLink {
+    &:hover {
+      color: rgb(25, 95, 95);
+      cursor: pointer;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    .right {
+      img {
+        height: 35px;
+      }
+    }
+  }
+}

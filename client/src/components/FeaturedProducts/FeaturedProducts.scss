@@ -1,0 +1,20 @@
+.featuredProducts {
+  .top {
+    margin: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: rgb(53, 96, 161);
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+
+  .buttom {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+  }
+}
